@@ -4,7 +4,7 @@ const jwt = require('jsonwebtoken');
 const fs = require('fs/promises');
 
 const app = express();
-const secretKey = 'your-secret-key'; // Replace with your own secret key
+const secretKey = 'aVerySecureAndRandomKey123!@#$'; // Replace with your own secret key
 const usersFilePath = 'users.json';
 
 app.use(bodyParser.json());
